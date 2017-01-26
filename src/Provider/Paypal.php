@@ -75,7 +75,7 @@ class Paypal extends AbstractProvider
      * This should not be a complete list of all scopes, but the minimum
      * required for the provider user interface!
      *
-     * @return array
+     * @return string[]
      */
     protected function getDefaultScopes()
     {
